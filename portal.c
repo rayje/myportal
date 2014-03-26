@@ -180,8 +180,7 @@ void drawCornerSide(float color[], int normal[], int side[]) {
  */
 void corner_cube(double x,double y,double z,
                  double dx,double dy,double dz,
-                 double th, double xh, double yh, double zh)
-{
+                 double th, double xh, double yh, double zh) {
     //  Save transformation
     glPushMatrix();
 
@@ -295,11 +294,9 @@ void cube(double x,double y,double z,
 /*
  * Draw vertex in polar coordinates
  *
- * Borrowed from examples given in class, except
- * this version uses a grey scale for coloring.
+ * Uses a grey scale for coloring.
  */
-static void Vertex(double th,double ph)
-{
+static void Vertex(double th,double ph) {
 
    double x =  Sin(th)*Cos(ph);
    double y =  Cos(th)*Cos(ph);
