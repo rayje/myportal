@@ -10,22 +10,24 @@ the other side of the glass walls are a few turrets and cubes. The scene consist
 of several colored spot lights and fog. Calculations are done on the current 
 position of the user so that the user does not pass through the walls.
 
-## How to compile:
+### How to compile:
 
 To compile run:
-  - $ make
 
-This will generate an executable named final
+    $ make
 
-##How to run:
+This will generate an executable named ```portal```
+
+### How to run:
 
 To run the portal executable run:
-  - $ ./portal
+
+    $ ./portal
 
 You can navigate throughout the scene by using the following keys:
 
-Keys:
----------------------------------
+### Keys
+
     UP: walk forward
     DOWN: walk back
     LEFT: look left
@@ -33,4 +35,4 @@ Keys:
     PG_UP: look up
     PG_DOWN: look down
 
-To close the program use the 'esc' key.
+To close the program use the ```esc``` key.
