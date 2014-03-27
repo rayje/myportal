@@ -7,7 +7,7 @@ else
 ifeq ($(shell uname), Darwin)
 LIBS=-framework GLUT -framework OpenGL
 else 
-LIBS=-lglut -lGLU -lm
+LIBS=-lglut -lGLU -lm -lGL
 endif
 endif
 
