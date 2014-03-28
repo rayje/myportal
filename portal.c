@@ -1167,7 +1167,7 @@ int main(int argc, char * argv[])
     glutInitWindowSize(600, 600);
     
     // Create window with assignment name in title
-    glutCreateWindow("Final Project: Rayland Jeans");
+    glutCreateWindow("My Portal");
     
     // Register the display method with GLUT
     glutDisplayFunc(display);
